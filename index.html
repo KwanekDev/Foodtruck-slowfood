@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>THE YARD | NYC STREET FOOD</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&family=Roboto+Mono:wght@300;400&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="logo">THE YARD.</div>
+        <div class="menu-toggle" id="mobile-menu">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </div>
+        <ul class="nav-links">
+            <li><a href="#home">Start</a></li>
+            <li><a href="#about">O Nas</a></li>
+            <li><a href="#menu">Menu</a></li>
+            <li><a href="#location">Lokalizacja</a></li>
+        </ul>
+    </nav>
+
+    <header id="home" class="hero">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <h1>MIEJSKI<br>GŁÓD</h1>
+            <p>SLOW FOOD / CRAFT BURGERS / NYC VIBE</p>
+            <a href="#menu" class="btn-main">ZOBACZ KARTĘ</a>
+        </div>
+    </header>
+
+    <section id="about" class="container section-padding">
+        <div class="split-layout">
+            <div class="text-block">
+                <h2 class="section-title">Lorem ipsum<br>Lorem Ipsum</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipiscing elit. Consectetur adipiscing elit quisque faucibus ex sapien vitae. Ex sapien vitae.</p>
+                <p>pellentesque sem placerat in id. Placerat in id cursus mi pretium tellus duis. Pretium tellus duis convallis tempus leo eu aenean.</p>
+            </div>
+            <div class="image-block">
+                <img src="https://www.gannett-cdn.com/presto/2019/05/24/PDTN/eebd28d6-8ee2-41bf-958c-8ab403366867-Nu_Deli_truck.jpg?crop=1599,899,x0,y154&width=3200&height=1680&fit=bounds" alt="foodtruck">
+            </div>
+        </div>
+    </section>
+
+    <section id="menu" class="bg-dark section-padding">
+        <div class="container">
+            <h2 class="section-title text-center">PASZA</h2>
+            
+            <div class="menu-grid">
+                <div class="menu-card">
+                    <div class="card-img">
+                        <img src="https://images.unsplash.com/photo-1568901346375-23c9450c58cd?q=80&w=800&auto=format&fit=crop" alt="Klasyk">
+                    </div>
+                    <div class="card-info">
+                        <div class="card-header">
+                            <h3>5TH AVENUE</h3>
+                            <span class="price">34 PLN</span>
+                        </div>
+                        <p class="ingredients">Wołowina 200g, cheddar, karmelizowana cebula, pikle, sos musztardowy.</p>
+                    </div>
+                </div>
+
+                <div class="menu-card">
+                    <div class="card-img">
+                        <img src="https://images.unsplash.com/photo-1594212699903-ec8a3eca50f5?q=80&w=800&auto=format&fit=crop" alt="Bekon">
+                    </div>
+                    <div class="card-info">
+                        <div class="card-header">
+                            <h3>THE BUTCHER</h3>
+                            <span class="price">39 PLN</span>
+                        </div>
+                        <p class="ingredients">Podwójny bekon, wołowina, krążki cebulowe, sos BBQ Jack Daniels.</p>
+                    </div>
+                </div>
+
+                <div class="menu-card">
+                    <div class="card-img">
+                        <img src="https://assets.unileversolutions.com/recipes-v2/243142.jpg" alt="Fries">
+                    </div>
+                    <div class="card-info">
+                        <div class="card-header">
+                            <h3>DIRTY FRIES</h3>
+                            <span class="price">24 PLN</span>
+                        </div>
+                        <p class="ingredients">Frytki belgijskie, szarpana wieprzowina, jalapeño, ser mimolette.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="location" class="container section-padding">
+        <div class="split-layout reverse-mobile">
+            <div class="map-wrapper" id="map">
+                <div class="map-placeholder">ŁADOWANIE MAPY...</div>
+            </div>
+            <div class="text-block location-text">
+                <h2 class="section-title">ZNAJDŹ NAS</h2>
+                <p class="big-text">STACJONUJEMY TAM,<br>GDZIE JEST IMPREZA.</p>
+                <ul class="info-list">
+                    <li>PON - CZW: 12:00 - 22:00</li>
+                    <li>PT - SOB: 12:00 - 02:00</li>
+                    <li>ND: KAC (ZAMKNIĘTE)</li>
+                </ul>
+                <div class="contact-btn">500-600-700</div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 THE YARD. NYC STYLE.</p>
+    </footer>
+
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap"></script>
+    <script src="script.js"></script>
+</body>
+</html>
