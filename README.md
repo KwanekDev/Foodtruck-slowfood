@@ -1,6 +1,6 @@
 # 🍔 THE YARD | NYC Street Food Demo
 
-Projekt nowoczesnej, responsywnej strony typu dla lokalu gastronomicznego (food truck / burgerownia). Strona zaprojektowana w stylu "Midnight NYC**.
+Projekt nowoczesnej, responsywnej strony typu dla lokalu gastronomicznego (food truck / burgerownia). Strona zaprojektowana w stylu **Midnight NYC**.
 
 ---
 
