@@ -31,5 +31,5 @@ Projekt nowoczesnej, responsywnej strony typu dla lokalu gastronomicznego (food 
 
 ## ⚙️ Instalacja i Konfiguracja
    ```bash
-   git clone [https://github.com/TwójUsername/the-yard-demo.git](https://github.com/TwójUsername/the-yard-demo.git)
+   git clone https://github.com/KwanekDev/Foodtruck-slowfood
 ```
